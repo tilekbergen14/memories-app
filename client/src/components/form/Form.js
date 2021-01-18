@@ -16,7 +16,7 @@ export default function Form() {
     }
 
     const clear = () => {
-            console.log("Clear")
+        setData({ creator: "", title: "", message: "", tags: "", selectedFile: ""})
     }
 
     return (
